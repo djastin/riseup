@@ -20,6 +20,7 @@
     <link href="{{url("dist/css/titles.css")}}" rel="stylesheet">
     <link href="{{url("dist/css/navbar.css")}}" rel="stylesheet">
     <link href="{{url("dist/css/animate.css")}}" rel="stylesheet">
+    <link href="{{url("dist/css/main.js")}}" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="{{url("dist/js/ie10-viewport-bug-workaround.js")}}"></script>

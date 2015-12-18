@@ -7,12 +7,20 @@
   ],
   "license": "MIT",
   "homepage": "https://github.com/djastin/riseup",
-  "moduleType": [],
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
   "ignore": [
     "**/.*",
-    "node_modules",
+    "node_modules",git 
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+b  }
 }
