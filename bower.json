@@ -1,0 +1,18 @@
+{
+  "name": "riseup",
+  "description": "",
+  "main": "",
+  "authors": [
+    "djastin <djastingvdamme@hotmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/djastin/riseup",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
