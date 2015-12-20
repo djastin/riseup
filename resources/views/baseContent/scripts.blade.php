@@ -1,18 +1,21 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="{{url("dist/js/jquery.min.js")}}"></script>
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
 <script src="{{url("dist/js/pageFading.js")}}"></script>
 <script src="{{url("dist/js/jquery.smoothState.js")}}"></script>
-<script src="{{url("dist/js/bootstrap.min.js")}}"></script>
+<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="{{url("dist/js/retina-1.1.0.js")}}"></script>
-<script src="{{url("dist/js/jquery.hoverdir.js")}}"></script>
+<script src="{{url("dist/js/jquervy.hoverdir.js")}}"></script>
 <script src="{{url("dist/js/jquery.hoverex.min.js")}}"></script>
 <script src="{{url("dist/js/jquery.prettyPhoto.js")}}"></script>
 <script src="{{url("dist/js/jquery.isotope.min.js")}}"></script>
 <script src="{{url("dist/js/custom.js")}}"></script>
 <script src="{{url("dist/js/navbar.js")}}"></script>
 <script src="{{url("dist/js/jquery.nav.js")}}"></script>
+<script src="../bower_components/vide/dist/jquery.vide.min.js"></script>
+<script src="{{url('dist/js/app.main.js')}}"></script>
+<script src="{{url('dist/js/cd.js')}}"></script>
 
 <script>
     // Portfolio
