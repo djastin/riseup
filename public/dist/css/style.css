@@ -35,6 +35,39 @@ body {
 	display: none;
 }
 
+li
+{
+    text-align: center;
+}
+
+.title
+{
+    font: normal normal normal 90px/1.1em 'Helvetica';
+    text-align: left;
+    color: white;
+    border: 20px solid white;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    font-weight: bold;
+}
+
+.title-desc
+{
+    width: auto;
+    height: auto;
+    color: red;
+    margin-top: 50px;
+    font-family: Reckoner;
+    font-size: 40pt;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato', sans-serif;
 	font-weight: 300;
@@ -49,7 +82,7 @@ p {
 	font-size: 18px; 
 	line-height: 28px;
 	color: #666; 
-	margin-top: 10px; 
+    margin-left: 20px;
 }
 
 html,
@@ -262,11 +295,47 @@ input {
 	font-size: 50px;
 }
 
+#intro-section
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+
+}
+
 /* GREY SECTION */
 .g {
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background: #f5f5f5;
+	background: url("../img/band/intro_background.jpg");
+    background-image: url('../img/band/intro_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-filter: grayscale(50%);
+}
+
+.main-frame
+{
+    background-image: url("../img/band/band.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 180px;
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.frame-centered
+{
+    background: yellow;
+    min-width: 100%;
+    height: 700px;
+    background-image: url("../img/band/band.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
 }
 
 .portfolio {
@@ -320,7 +389,7 @@ input {
 
 /* CONTACT SEPARATOR */
 #sep {
-	background: url(../img/sep.jpg) no-repeat center top;
+	background: url(../img/band/contact.jpg) no-repeat center top;
 	padding-top: 100px;
 	background-attachment: relative;
 	background-position: center center;
@@ -338,6 +407,8 @@ input {
     -o-background-size: cover;
     background-size: cover;
     color: white;
+
+
 }
 
 #sep h3 {
@@ -363,7 +434,7 @@ input {
 
 h2
 {
-	padding-left: 10px;
+	padding-left: 30px;
 }
 
 /* HEADER 2 - PORTFOLIO SECTION */

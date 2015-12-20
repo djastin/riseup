@@ -10,7 +10,7 @@
     <title>HZ - Data Analyse 1</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{{url("bootstrap/bootstrap.css")}}" rel="stylesheet">
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="{{url("dist/css/datatable.css")}}" rel="stylesheet">
@@ -20,7 +20,13 @@
     <link href="{{url("dist/css/titles.css")}}" rel="stylesheet">
     <link href="{{url("dist/css/navbar.css")}}" rel="stylesheet">
     <link href="{{url("dist/css/animate.css")}}" rel="stylesheet">
+<<<<<<< HEAD
     <link href="{{url("dist/css/main.js")}}" rel="stylesheet">
+=======
+    <link href="{{url("dist/css/quote.css")}}" rel="stylesheet">
+    <link href="{{url("dist/css/equalizer.css")}}" rel="stylesheet">
+    <link href="{{url("dist/css/cd.css")}}" rel="stylesheet">
+>>>>>>> feature/video
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="{{url("dist/js/ie10-viewport-bug-workaround.js")}}"></script>

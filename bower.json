@@ -16,11 +16,20 @@
   ],
   "ignore": [
     "**/.*",
+<<<<<<< HEAD
     "node_modules",git 
+=======
+    "node_modules",
+>>>>>>> feature/video
     "bower_components",
     "test",
     "tests"
   ],
   "dependencies": {
+<<<<<<< HEAD
 b  }
+=======
+    "vide": "~0.4.1"
+  }
+>>>>>>> feature/video
 }
