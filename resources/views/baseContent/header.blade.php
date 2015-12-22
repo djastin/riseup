@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>HZ - Data Analyse 1</title>
+    <title>Zuidpoort - Rise Up</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -20,13 +20,10 @@
     <link href="{{url("dist/css/titles.css")}}" rel="stylesheet">
     <link href="{{url("dist/css/navbar.css")}}" rel="stylesheet">
     <link href="{{url("dist/css/animate.css")}}" rel="stylesheet">
-<<<<<<< HEAD
     <link href="{{url("dist/css/main.js")}}" rel="stylesheet">
-=======
     <link href="{{url("dist/css/quote.css")}}" rel="stylesheet">
     <link href="{{url("dist/css/equalizer.css")}}" rel="stylesheet">
     <link href="{{url("dist/css/cd.css")}}" rel="stylesheet">
->>>>>>> feature/video
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="{{url("dist/js/ie10-viewport-bug-workaround.js")}}"></script>

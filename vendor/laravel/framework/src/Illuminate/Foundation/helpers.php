@@ -97,7 +97,7 @@ if (! function_exists('auth')) {
      */
     function auth()
     {
-        return app(Guard::class);
+        return app('Guard');
     }
 }
 
@@ -194,7 +194,7 @@ if (! function_exists('cookie')) {
      */
     function cookie($name = null, $value = null, $minutes = 0, $path = null, $domain = null, $secure = false, $httpOnly = true)
     {
-        $cookie = app(CookieFactory::class);
+        $cookie = app('CookieFactory');
 
         if (is_null($name)) {
             return $cookie;
@@ -354,7 +354,7 @@ if (! function_exists('factory')) {
      */
     function factory()
     {
-        $factory = app(EloquentFactory::class);
+        $factory = app('EloquentFactory');
 
         $arguments = func_get_args();
 
@@ -466,7 +466,7 @@ if (! function_exists('policy')) {
      */
     function policy($class)
     {
-        return app(Gate::class)->getPolicyFor($class);
+        return app('Gate')->getPolicyFor($class);
     }
 }
 
@@ -575,7 +575,7 @@ if (! function_exists('response')) {
      */
     function response($content = '', $status = 200, array $headers = [])
     {
-        $factory = app(ResponseFactory::class);
+        $factory = app('ResponseFactory');
 
         if (func_num_args() === 0) {
             return $factory;
@@ -713,7 +713,7 @@ if (! function_exists('url')) {
      */
     function url($path = null, $parameters = [], $secure = null)
     {
-        return app(UrlGenerator::class)->to($path, $parameters, $secure);
+        return app('Illuminate\Contracts\Routing\UrlGenerator')->to($path, $parameters, $secure);
     }
 }
 
@@ -728,7 +728,7 @@ if (! function_exists('view')) {
      */
     function view($view = null, $data = [], $mergeData = [])
     {
-        $factory = app(ViewFactory::class);
+        $factory = app('Illuminate\Contracts\View\Factory');
 
         if (func_num_args() === 0) {
             return $factory;

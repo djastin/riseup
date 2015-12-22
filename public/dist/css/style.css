@@ -14,12 +14,37 @@
 /* Import fonts */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 
+@font-face
+{
+    font-family: 'Reckoner';
+    src: url('../fonts/Reckoner.ttf') format('truetype')
+}
+
+@font-face
+{
+    font-family: 'Reckoner Bold';
+    src: url('../fonts/Reckoner_Bold.ttf') format('truetype')
+}
+
+@font-face
+{
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica-Bold.otf') format('truetype')
+}
+
+
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
+
 
 .fullpage
 {
 	min-height: 100%;
+}
+
+.frame-logo
+{
+    margin: 0 auto;
 }
 
 * { 
@@ -308,10 +333,6 @@ input {
 .g {
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background: url("../img/band/intro_background.jpg");
-    background-image: url('../img/band/intro_background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
     -webkit-filter: grayscale(50%);
 }
 
@@ -487,3 +508,55 @@ table {
 	margin-right: auto;
 }
 
+.frame-small
+{
+    min-height: 300px;
+}
+
+.frame-middle
+{
+    min-height: 500px;
+}
+
+.event-desc
+{
+    margin-top: 30px;
+    color: white;
+    font: normal normal normal 30px/1.1em 'Helvetica';
+}
+
+.event-desc-detail
+{
+    font: normal normal normal 20px/1.1em 'Helvetica';
+}
+
+.frame-event
+{
+    background-image: url("../img/band/intro_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 180px;
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.custom-font
+{
+    color: white;
+}
+
+.logo-zuidpoort-container
+{
+    margin-top: 10px;
+
+}
+
+.logo-zuidpoort
+{
+    width: 150px;
+    height: 50px;
+    background-image: url("../img/logo-zuidpoort.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: auto;
+}

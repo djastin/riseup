@@ -5,7 +5,8 @@
 <ul id="nav">
     <li class="current"><a href="#section-one">Home</a></li>
     <li><a href="#section-two">BAND</a></li>
-    <li><a href="#section-three">MUZIEK</a></li>
+    <li><a href="#section-three">EVENT</a></li>
+    <li><a href="#section-four">MUZIEK</a></li>
     <li><a href="#sep">CONTACT</a></li>
 </ul>
 
@@ -14,7 +15,12 @@
 </div>-->
 
 <div class="g fullpage main-frame" id="section-one">
+    <div class="frame-logo">
         <div class="title text-center animated flipInX">#RISE UP<br />ON THE ROCK</div>
+        <div class="event-desc mb text-center">23 JANUARI 2015 20:00 U Xpect/Rise Up</div>
+    </div>
+
+
 </div><!--/.G-->
 
 <div class="container">
@@ -32,7 +38,7 @@
 
             <div class="col-md-6">
                 <p>
-                    Leuk dat je even wat meer wilt weten over de band! <br /><br /> Wij zijn een band genaamd
+                    Wij zijn een band genaamd
                     Rise Up met de volgende muzikanten: Jacco (gitarist), Daniel (drummer),
                     John (bassist), Tyhia (zangeres), Karen (zangeres) en Djastin (toetsenist).
                     <br /><br />
@@ -50,7 +56,7 @@
                     Als band hebben we ook een visie over wat wij willen bereiken met het uitvoeren van optredens, namelijk
                     jonge mensen te bereiken met het geloof.
                     Een geloof van leven, vrijheid, vrede, liefde
-                    en waarheid. Jonge mensen die vanuit hun eigen leven willen laten zien hoe mooi het geloof kan zijn.
+                    en waarheid. <br />Jonge mensen die vanuit hun eigen leven willen laten zien hoe mooi het geloof kan zijn.
 
                     <br /><br />
                     Wij willen
@@ -61,6 +67,10 @@
                     Heb je vragen of wil je ons volgen op social media? Ga dan naar onze <a
                             href="https://www.facebook.com/Rise-Up-105880839746221/?fref=ts">facebookpagina</a>.
 
+                        <div class="logo-zuidpoort-container">
+                            <div class="logo-zuidpoort"></div>
+                        </div>
+
                 </p>
             </div><!--/col-md-6-->
 
@@ -68,10 +78,42 @@
     </div><!--/.container-->
 </div><!--/.G-->
 
-<div class="g fullpage" style="background: #EFEEEA;" id="section-three">
+<div class="g frame-middle frame-event" id="section-three">
+    <div class="row centered">
+        <div class="col-md-8 col-md-offset-2">
+            <h1 class="custom-font">Xpect Event 2016<br />
+                <div class="event-desc-detail mb">23 JANUARI 2015 20:00 U - Zuidpoort Vlissingen</div>
+            </h1>
+
+
+        </div>
+    </div><!--/row-->
+</div><!--/.G-->
+
+
+<div class="g fullpage" style="background: #EFEEEA;" id="section-four">
     <div class="container">
         <div class="row">
             <h2 class="mb text-center">MUZIEK</h2>
+
+            <div class="row centered">
+                <div class="col-md-8 col-md-offset-2">
+
+                    <p>Psalm 33:3<br />
+                        <i>Zing voor hem een nieuw lied,<br />
+                        speel en zing met overgave <br />(NBV)</i>
+                        <br /><br />
+
+                        <i>Sing to him a new song<br />
+                        play skillfully, and shout for joy <br />(NIV)</i>
+                        <br /><br />
+
+                    </p>
+
+                    <p>In september hebben we het nummer Alive van Hillsong Y&F opgenomen met de band.<br /><br /></p>
+                </div>
+            </div>
+
 
             <!-- Audio player -->
             <div class="ap" id="ap">
@@ -153,15 +195,18 @@
             </div>
 
 
+
         </div><!--/row-->
     </div><!--/.container-->
 </div><!--/.G-->
+
+
 
 <div id="sep">
     <div class="container sep-container">
         <div class="row centered">
             <div class="col-md-8 col-md-offset-2">
-                <h1>empowering generations<br /> to win generations</h1>
+                <h1 class="custom-font">empowering generations<br /> to win generations</h1>
             </div>
         </div><!--/row-->
     </div><!--/container-->
